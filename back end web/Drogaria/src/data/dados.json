@@ -1,0 +1,42 @@
+{
+  "medicamentos": [
+    {
+      "id": 1,
+      "nome": "amoxilina",
+      "fabricante": "bayer",
+      "preco": 80,
+      "quantidade": 50
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Amelie",
+      "endereco": "rua tal,123",
+      "email": "1@gmail.com",
+      "telefone": "111555777"
+    }
+  ],
+  "fornecedor": [
+    {
+      "id": "1",
+      "nome": "farmacos ltda",
+      "endereco": "rua b. 1919",
+      "telefone": "112343221"
+    }
+  ],
+  "vendas": [
+    {
+      "id": 1,
+      "data": "20/04/2023",
+      "id_medicamentos": "1",
+      "id_cliente": "1"
+    },
+    {
+      "id": 2,
+      "data": "20/04/2023",
+      "id_medicamentos": "2",
+      "id_cliente": "1"
+    }
+  ]
+}

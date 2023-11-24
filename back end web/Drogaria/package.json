@@ -1,0 +1,12 @@
+{
+  "name": "drogaria",
+  "version": "1.0.0",
+  "main": "Drogaria.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/Drogaria.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

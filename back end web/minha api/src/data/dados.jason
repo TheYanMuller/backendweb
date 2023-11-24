@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "teste",
+      "idade": "18",
+      "curso": "Design"
+    },
+    {
+      "id": 2,
+      "nome": "tester",
+      "idade": "20",
+      "curso": "desenvolvimento web"
+    }
+  ]
+}
