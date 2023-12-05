@@ -1,0 +1,15 @@
+{
+  "name": "drogaria-1.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./controllers/app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./controllers/app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
