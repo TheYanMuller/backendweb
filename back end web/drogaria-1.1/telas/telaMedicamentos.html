@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Clientes</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gerenciamento de Medicamentos</h1>
+    <h2>Adicionar medicamentos</h2>
+    <form id="formAdicionarMedicamento">
+        <label for="idMedicamento">ID: </label>
+        <input type="text" id="idMedicamento" name="idMedicamento" required>
+
+        <label for="nomeCliente">Nome: </label>
+        <input type="text" id="nomeMedicamento" name="nomeCliente" required>
+        
+        <label for="Fornecedor">Fornecedor: </label>
+        <input type="text" id="enderecoCliente" name="enderecoCliente" required>
+
+        <label for="emailCliente">Quantidade: </label>
+        <input type="text" id="emailCliente" name="emailCliente" required>
+    
+        <button type="button" onclick="adicionarMed()">Adicionar</button>
+    </form>
+
+    <h2>Listar Medicamentos</h2>
+    <ul id="listaMedicamentos"></ul>
+
+    <script src="../clients/clientes.js"></script>
+</body>
+</html>

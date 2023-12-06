@@ -39,13 +39,13 @@ server.put('/clientes/:id', (req, res) => {
         return res.status(404).json({mensagem: "Usuário não encontrado :/"})
     } else {
         //atualiza o nome:
-        dadosClientes.users[idCliente].nome = atualizarUsuario.nome || dadosClientes.users[idCliente].nome
+        dadosClientes.Cliente[idCliente].nome = atualizarUsuario.nome || dadosClientes.Cliente[idCliente].nome
 
         //atualiza a idade:
-        dadosClientes.users[idCliente].idade = atualizarUsuario.idade || dadosClientes.users[idCliente].idade
+        dadosClientes.Cliente[idCliente].idade = atualizarUsuario.idade || dadosClientes.Cliente[idCliente].idade
 
         //atualiza o curso
-        dadosClientes.users[idCliente].curso = atualizarUsuario.curso || dadosClientes.users[idCliente].curso
+        dadosClientes.Cliente[idCliente].curso = atualizarUsuario.curso || dadosClientes.Cliente[idCliente].curso
 
         salvarDados(dadosClientes)
 
@@ -57,7 +57,7 @@ server.put('/clientes/:id', (req, res) => {
 server.delete("/clientes/:id", (req, res) => {
     const clienteId = parseInt(req.params.id)
 
-    dadosClientes.Clientes = dadosClientes.Clientes.filter(u => u.id !== usuarioId)
+    dadosClientes.Cliente = dadosClientes.Clientes.filter(u => u.id !== clienteId)
 
     salvarDados(dadosClientes)
 
